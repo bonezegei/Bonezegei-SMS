@@ -1,6 +1,8 @@
 
 ![bonezegei SMS](resources/bonezegeiSMS128.png "bonezegei SMS")
 # Bonezegei-SMS
+<h2> Author: Jofel Batutay </h2>
+
 
 
 ### Simple Self Hosted SMS Gateway
