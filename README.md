@@ -69,7 +69,7 @@ Create a php file to create the database for php. You can modify the sample code
     if(isset($_GET['update'])){
   	   $ms_id=$_GET['update'];
   	   $ms_status=$_GET['status'];
-  	   $sql = "UPDATE messages SET msg_status='$ms_status' WHERE msg_id=$ms_id";
+  	   $sql = "UPDATE Messages SET msg_status='$ms_status' WHERE msg_id=$ms_id";
   	   if ($conn->query($sql) === TRUE) {
   	     echo "msg_status:updated";
   	   } else {
@@ -77,7 +77,7 @@ Create a php file to create the database for php. You can modify the sample code
     	 }
     }
     else{
-     $sql = "SELECT msg_id, msg_phone, msg_message, msg_status, msg_time FROM messages";
+     $sql = "SELECT msg_id, msg_phone, msg_message, msg_status, msg_time FROM Messages";
      $result = $conn->query($sql);
   	 $data_count = 0;
    
